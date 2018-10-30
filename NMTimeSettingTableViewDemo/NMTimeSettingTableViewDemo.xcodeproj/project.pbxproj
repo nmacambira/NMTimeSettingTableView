@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8311B9291ED255F7002B4071 /* NMTimeSettingTableViewDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311B9281ED255F7002B4071 /* NMTimeSettingTableViewDatePicker.swift */; };
+		83556AD91EBF43BB0069D6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83556AD81EBF43BB0069D6DE /* AppDelegate.swift */; };
+		83556ADB1EBF43BB0069D6DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83556ADA1EBF43BB0069D6DE /* ViewController.swift */; };
+		83556ADE1EBF43BB0069D6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83556ADC1EBF43BB0069D6DE /* Main.storyboard */; };
+		83556AE01EBF43BB0069D6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83556ADF1EBF43BB0069D6DE /* Assets.xcassets */; };
+		83556AE31EBF43BB0069D6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83556AE11EBF43BB0069D6DE /* LaunchScreen.storyboard */; };
+		83556AEB1EBF62530069D6DE /* NMTimeSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83556AEA1EBF62530069D6DE /* NMTimeSettingTableViewController.swift */; };
+		83556AEF1EBF652B0069D6DE /* NMTimeSettingTableViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83556AEE1EBF652B0069D6DE /* NMTimeSettingTableViewUtils.swift */; };
+		83556AFC1EBF66990069D6DE /* NMTimeSettingTableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83556AFB1EBF66990069D6DE /* NMTimeSettingTableViewCells.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8311B9281ED255F7002B4071 /* NMTimeSettingTableViewDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMTimeSettingTableViewDatePicker.swift; sourceTree = "<group>"; };
+		83556AD51EBF43BB0069D6DE /* NMTimeSettingTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMTimeSettingTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83556AD81EBF43BB0069D6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83556ADA1EBF43BB0069D6DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83556ADD1EBF43BB0069D6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83556ADF1EBF43BB0069D6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83556AE21EBF43BB0069D6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83556AE41EBF43BB0069D6DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83556AEA1EBF62530069D6DE /* NMTimeSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMTimeSettingTableViewController.swift; sourceTree = "<group>"; };
+		83556AEE1EBF652B0069D6DE /* NMTimeSettingTableViewUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMTimeSettingTableViewUtils.swift; sourceTree = "<group>"; };
+		83556AFB1EBF66990069D6DE /* NMTimeSettingTableViewCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMTimeSettingTableViewCells.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83556AD21EBF43BB0069D6DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83556ACC1EBF43BB0069D6DE = {
+			isa = PBXGroup;
+			children = (
+				83556AD71EBF43BB0069D6DE /* NMTimeSettingTableViewDemo */,
+				83556AD61EBF43BB0069D6DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83556AD61EBF43BB0069D6DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83556AD51EBF43BB0069D6DE /* NMTimeSettingTableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83556AD71EBF43BB0069D6DE /* NMTimeSettingTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				83556AD81EBF43BB0069D6DE /* AppDelegate.swift */,
+				83556AFD1EBFD6150069D6DE /* View */,
+				83556AFE1EBFD6280069D6DE /* Controller */,
+				83556AF01EBF657E0069D6DE /* NMTimeSettingTableView */,
+				83556ADF1EBF43BB0069D6DE /* Assets.xcassets */,
+				83556AE11EBF43BB0069D6DE /* LaunchScreen.storyboard */,
+				83556AE41EBF43BB0069D6DE /* Info.plist */,
+			);
+			path = NMTimeSettingTableViewDemo;
+			sourceTree = "<group>";
+		};
+		83556AF01EBF657E0069D6DE /* NMTimeSettingTableView */ = {
+			isa = PBXGroup;
+			children = (
+				83556AEA1EBF62530069D6DE /* NMTimeSettingTableViewController.swift */,
+				83556AEE1EBF652B0069D6DE /* NMTimeSettingTableViewUtils.swift */,
+				83556AFB1EBF66990069D6DE /* NMTimeSettingTableViewCells.swift */,
+				8311B9281ED255F7002B4071 /* NMTimeSettingTableViewDatePicker.swift */,
+			);
+			name = NMTimeSettingTableView;
+			sourceTree = "<group>";
+		};
+		83556AFD1EBFD6150069D6DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83556ADC1EBF43BB0069D6DE /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		83556AFE1EBFD6280069D6DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83556ADA1EBF43BB0069D6DE /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83556AD41EBF43BB0069D6DE /* NMTimeSettingTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83556AE71EBF43BB0069D6DE /* Build configuration list for PBXNativeTarget "NMTimeSettingTableViewDemo" */;
+			buildPhases = (
+				83556AD11EBF43BB0069D6DE /* Sources */,
+				83556AD21EBF43BB0069D6DE /* Frameworks */,
+				83556AD31EBF43BB0069D6DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NMTimeSettingTableViewDemo;
+			productName = NMTimeSettingTableViewDemo;
+			productReference = 83556AD51EBF43BB0069D6DE /* NMTimeSettingTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83556ACD1EBF43BB0069D6DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Natalia Macambira";
+				TargetAttributes = {
+					83556AD41EBF43BB0069D6DE = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83556AD01EBF43BB0069D6DE /* Build configuration list for PBXProject "NMTimeSettingTableViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83556ACC1EBF43BB0069D6DE;
+			productRefGroup = 83556AD61EBF43BB0069D6DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83556AD41EBF43BB0069D6DE /* NMTimeSettingTableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83556AD31EBF43BB0069D6DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83556AE31EBF43BB0069D6DE /* LaunchScreen.storyboard in Resources */,
+				83556AE01EBF43BB0069D6DE /* Assets.xcassets in Resources */,
+				83556ADE1EBF43BB0069D6DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83556AD11EBF43BB0069D6DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83556AEB1EBF62530069D6DE /* NMTimeSettingTableViewController.swift in Sources */,
+				83556AEF1EBF652B0069D6DE /* NMTimeSettingTableViewUtils.swift in Sources */,
+				8311B9291ED255F7002B4071 /* NMTimeSettingTableViewDatePicker.swift in Sources */,
+				83556ADB1EBF43BB0069D6DE /* ViewController.swift in Sources */,
+				83556AD91EBF43BB0069D6DE /* AppDelegate.swift in Sources */,
+				83556AFC1EBF66990069D6DE /* NMTimeSettingTableViewCells.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83556ADC1EBF43BB0069D6DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83556ADD1EBF43BB0069D6DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83556AE11EBF43BB0069D6DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83556AE21EBF43BB0069D6DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83556AE51EBF43BB0069D6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83556AE61EBF43BB0069D6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83556AE81EBF43BB0069D6DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NMTimeSettingTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.NMTimeSettingTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		83556AE91EBF43BB0069D6DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NMTimeSettingTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.NMTimeSettingTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83556AD01EBF43BB0069D6DE /* Build configuration list for PBXProject "NMTimeSettingTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83556AE51EBF43BB0069D6DE /* Debug */,
+				83556AE61EBF43BB0069D6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83556AE71EBF43BB0069D6DE /* Build configuration list for PBXNativeTarget "NMTimeSettingTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83556AE81EBF43BB0069D6DE /* Debug */,
+				83556AE91EBF43BB0069D6DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83556ACD1EBF43BB0069D6DE /* Project object */;
+}
