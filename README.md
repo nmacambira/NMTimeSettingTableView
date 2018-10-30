@@ -23,11 +23,11 @@ NMTimeSettingTableView is a time setting screen, similar to the time setting scr
 
     3. Embed the Viewcontroller in a Navigation Controller or its parent (if you do not do that you will not be able to see the Save button)
 
-        ![Embed Viewcontroller](https://github.com/nmacambira/NMTimeSettingTableView/blob/master/Images/EmbedViewcontroller.png)
+    ![Embed Viewcontroller](https://github.com/nmacambira/NMTimeSettingTableView/blob/master/Images/EmbedViewcontroller.png)
 
     4. In the Identity Inspector of the ViewController set as Custom Class "NMTimeSettingTableViewController" 
 
-        ![Custom Class](https://github.com/nmacambira/NMTimeSettingTableView/blob/master/Images/CustomClass.png)
+    ![Custom Class](https://github.com/nmacambira/NMTimeSettingTableView/blob/master/Images/CustomClass.png)
 
     5. Make sure to add the protocol "NMTimeSettingTableViewControllerDelegate" to the parent ViewController or you will not be able to retrive NMTimeSettingTableViewController data
 
@@ -46,7 +46,7 @@ NMTimeSettingTableView is a time setting screen, similar to the time setting scr
 
     6. You can customize NMTimeSettingTableView to your language
 
-        ![Designable](https://github.com/nmacambira/NMTimeSettingTableView/blob/master/Images/Designable.png) 
+    ![Designable](https://github.com/nmacambira/NMTimeSettingTableView/blob/master/Images/Designable.png) 
 
     7. Check out the Demo Project: NMTimeSettingTableViewDemo
 
